@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag=="寶貝球")
+        if (other.tag=="寶貝球" && other.transform.position.y>3f)
         {
             AddScore();
         }

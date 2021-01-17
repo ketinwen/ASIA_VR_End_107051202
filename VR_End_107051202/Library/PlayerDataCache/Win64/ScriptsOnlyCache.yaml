@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
     - ScoreManager
     SteamVR.dll:
     - URPMaterialSwitcher
@@ -23,6 +24,7 @@ ScriptsOnlyBuild:
     - Valve.VR.InteractionSystem.TeleportPoint
     - Valve.VR.InteractionSystem.TeleportURPHelper
     - Valve.VR.InteractionSystem.Throwable
+    - Valve.VR.InteractionSystem.UIElement
     - Valve.VR.SteamVR_ActivateActionSetOnLoad
     - Valve.VR.SteamVR_Behaviour
     - Valve.VR.SteamVR_Behaviour_Pose
@@ -53,6 +55,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
@@ -124,81 +127,87 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11396}
+      Script: {instanceID: 11398}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11552}
-    - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11558}
     - Class: 114
       Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11654}
+      Script: {instanceID: 11624}
     - Class: 114
-      Script: {instanceID: 11666}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11910}
+      Script: {instanceID: 11676}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11730}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 12012}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 12180}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12290}
+      Script: {instanceID: 12190}
     - Class: 114
-      Script: {instanceID: 12316}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12328}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12822}
+      Script: {instanceID: 12584}
     - Class: 114
-      Script: {instanceID: 12824}
+      Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 12846}
+      Script: {instanceID: 12698}
     - Class: 114
-      Script: {instanceID: 12914}
+      Script: {instanceID: 12834}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 12836}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 12858}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12930}
     - Class: 114
-      Script: {instanceID: 13142}
+      Script: {instanceID: 12948}
     - Class: 114
-      Script: {instanceID: 13162}
+      Script: {instanceID: 12970}
     - Class: 114
-      Script: {instanceID: 13260}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 13312}
+      Script: {instanceID: 13156}
     - Class: 114
-      Script: {instanceID: 13448}
+      Script: {instanceID: 13176}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13274}
     - Class: 114
-      Script: {instanceID: 13514}
+      Script: {instanceID: 13326}
     - Class: 114
-      Script: {instanceID: 13532}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 13622}
+      Script: {instanceID: 13528}
+    - Class: 114
+      Script: {instanceID: 13546}
+    - Class: 114
+      Script: {instanceID: 13596}
+    - Class: 114
+      Script: {instanceID: 13614}
+    - Class: 114
+      Script: {instanceID: 13638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1366,6 +1375,12 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 9726bc46e15d44429bd38fb013657f1e
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -1451,4 +1466,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - "Assets/\u7C43\u7403\u6A5F.unity"
-  playerPath: D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/exe/VR_bastketball.exe
+  playerPath: D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_107051202/VR_bastketball.exe

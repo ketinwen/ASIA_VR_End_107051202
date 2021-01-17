@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{79A8C610-AEBF-7862-0F83-48F677F56A88}</ProjectGuid>
+    <ProjectGuid>{0469F70A-9CF2-21FE-FB95-3B10FA904E94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Windows_EditorHelper</AssemblyName>
@@ -262,10 +262,10 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_bastketball/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_End_107051202/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_bastketball/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_End_107051202/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -621,17 +621,17 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_bastketball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_bastketball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_End_107051202/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_End_107051202/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_bastketball/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_End_107051202/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_bastketball/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:/peanut/AR_Midterm_107051012/Unity_AR_basketball/VR_End_107051202/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
