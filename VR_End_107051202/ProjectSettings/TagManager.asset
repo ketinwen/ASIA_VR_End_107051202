@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - "\u5BF6\u8C9D\u7403"
+  - projectile
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
